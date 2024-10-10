@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F5F5F5;
+    color: #333333;
+}
+
+.container {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #333333;
+    color: #F5F5F5;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #010911;
+    border-radius: 5px;
+}
+
+header hr {
+    border: 1px solid #FFFFFF;
+    margin-top: 10px;
+}
+
+section {
+    padding: 40px o;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 20px;
+    margin: 8px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+article {
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+article figure {
+    margin-bottom: 15px;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+article h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+article p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+article a {
+    color: #0066CC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+figcaption {
+    font-size: 12px;
+    color: #777777;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+}
