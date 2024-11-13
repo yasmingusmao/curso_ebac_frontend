@@ -13,9 +13,9 @@ form.addEventListener('submit', function(e) {
 
     const numberA = document.getElementById('first-number');
     const numberB = document.getElementById('second-number');
-    const mensagemInsucesso = "O número B: ${numberB.value} não é maior que o número A: ${numberA.value}";
+    const mensagemInsucesso = `O número B: ${numberB.value} não é maior que o número A: ${numberA.value}`;
     
-    formValido = validaForm(numberA.value, numberB.value);
+    formValido = validaForm(Number(numberA.value), Number(numberB.value));
     if (!formValido) {
         alert(mensagemInsucesso)
     } else {
