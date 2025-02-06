@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header>
+        <h1>Minha lista de tarefas</h1>
+        <button>New Task +</button>
+    </header>
+    <form>
+        <h2>Add nova tarefa</h2>
+        <div class="form_content">
+            <input type="text" required placeholder="Ex: Fazer lista da feira">
+            <button type="submit">Add</button>
+            <button type="reset" id="button_cancel-task">Cancel</button>
+        </div>
+    </form>
+    <main>
+        <div class="task_container">
+            <h1>A fazer</h1>
+            <ul id="task_list">
+                <li>
+                    <input type="checkbox" id="task-1">
+                    <label for="task-1">Comprar pão</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="task-2">
+                    <label for="task-2">Lavar roupa</label>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+<script src="./main.js"></script>
+</html>

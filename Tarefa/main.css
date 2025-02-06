@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lexend Deca", serif;
+}
+
+body {
+    background-color: #ffe9e3;
+    text-align: center;
+    color: #333333;
+}
+
+header {
+    padding: 24px;
+    background: linear-gradient(45deg, #ff6f61, #6b6dff);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header button {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #6b6dff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+#button_cancel-task {
+    background-color: #ff6f61;
+}
+
+form {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #f4c1bc;
+}
+
+form h2 {
+    color: #333333;
+    font-weight: 400;
+}
+
+form input {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+.form_content {
+    padding-top: 16px;
+}
+
+.task_container {
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.task_container h1 {
+    font-weight: 300;
+}
+
+#task_list {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.task_container ul li {
+    display: block;
+    list-style: none;
+    align-items: center;
+}
+
+#task_list label {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 0 8px;
+    padding-top: 8px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+input[type="checkbox"]{
+    transform: scale(1.8);
+    width: 20px;
+}
+
+input[type="checkbox"]:checked + label {
+    color: #ff6f61;
+    text-decoration: line-through;
+    transform: scale(1.05s);
+}
+
+.task_container label:hover {
+    color: #6b6dff;
+    text-decoration: underline;
+}
