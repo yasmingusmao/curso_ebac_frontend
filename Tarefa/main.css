@@ -37,6 +37,7 @@ form {
     text-align: center;
     padding: 20px 0;
     background-color: #f4c1bc;
+    display: none;
 }
 
 form h2 {

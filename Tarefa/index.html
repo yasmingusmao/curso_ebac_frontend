@@ -19,7 +19,7 @@
     <form>
         <h2>Add nova tarefa</h2>
         <div class="form_content">
-            <input type="text" required placeholder="Ex: Fazer lista da feira">
+            <input type="text" id="new__task" required placeholder="Ex: Fazer lista da feira">
             <button type="submit">Add</button>
             <button type="reset" id="button_cancel-task">Cancel</button>
         </div>
@@ -29,16 +29,15 @@
             <h1>A fazer</h1>
             <ul id="task_list">
                 <li>
-                    <input type="checkbox" id="task-1">
-                    <label for="task-1">Comprar pão</label>
+                
                 </li>
                 <li>
-                    <input type="checkbox" id="task-2">
-                    <label for="task-2">Lavar roupa</label>
+                    
                 </li>
             </ul>
         </div>
     </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="./main.js"></script>
 </body>
-<script src="./main.js"></script>
 </html>
