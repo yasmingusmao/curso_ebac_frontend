@@ -2,72 +2,78 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PsicoAcolhe</title>
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/main.css">
 </head>
 <body>
-    
-    <nav class="navbar">
+    <header>
         <div class="container">
-            <a class="navbar-brand fw-bold" href="#">PsicoAcolhe</a>
-            <div>
-                <a class="btn btn-light" href="#">Entrar</a>
+            <div class="branding">
+                <img src="https://via.placeholder.com/120x70" />
             </div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </nav>
-
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <section class="inicio">
-                    <img src="/mental-health.png" alt="Imagem de metade coração e metade cérebro" width="120" class="mb-3">
-                    <h1>Agende sua primeira sessão</h1>
-                    <p>Preencha os dados abaixo e dê o primeiro passo em direção ao seu bem-estar.</p>
-                </section>
-
-                <div class="form-card">
-                    <form>
-                        <label class="form-label" for="nome">Nome completo</label>
-                        <input class="form-control" type="text" id="nome">
-                        <label class="form-label" for="data">Data de Nascimento</label>
-                        <input class="form-control" type="date" id="data">
-                        <label class="form-label" for="telefone">Telefone</label>
-                        <input class="form-control" type="tel" id="telefone">
-                        <label class="form-label" for="email">E-mail</label>
-                        <input class="form-control" type="email" id="email">
-                        <label class="form-label" for="horario">Preferência de horário</label>
-                        <select class="form-select" name="" id="horario">
-                            <option value="">Manhã</option>
-                            <option value="">Tarde</option>
-                            <option value="">Noite</option>
-                        </select>
-                        <label class="form-label" for="objetivo">Objetivo Principal</label>
-                        <select class="form-select" name="" id="objetivo">
-                            <option value="">Autoconhecimento</option>
-                            <option value="">Ansiedade</option>
-                            <option value="">Carreira</option>
-                            <option value="">Relacionamentos</option>
-                            <option value="">Outros</option>
-                        </select>
-                        <div class="form-check mb-3">
-                            <label class="form-check-label" for="aceito-termos">Li e concordo com os termos do site</label>
-                            <input class="form-check-input" type="checkbox" id="aceito-termos">
-                        </div>
-                        <button class="btn btn-success w-100">Confirmar</button>
-                    </form>
-                </div>
-            </div>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Produtos</h2>
+            <ul class="products">
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+                <li class="product-item">
+                    <img src="https://via.placeholder.com/180x180" />
+                    <h4>Nome do produto</h4>
+                    <p>
+                        Descrição do produto, cor, tamanho, textura, etc.
+                    </p>
+                    <a href="#" class="product-button">
+                        Ver detalhes
+                    </a>
+                </li>
+            </ul>
         </div>
-    </div>
-
-    <div class="container">
-        <footer>
-            <p>&copy; 2025 PsicoAcolhe . <a href="#" class="text-dark">Sobre</a> . <a href="#" class="text-dark">Contato</a> </p>
-        </footer>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    </section>
 </body>
 </html>
